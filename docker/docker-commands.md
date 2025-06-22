@@ -179,6 +179,22 @@ docker volume prune
 ```
 remove volume containers
 
+```
+docker login
+```
+to login on dockerhub then enter dockerhub credentials 
+
+```
+docker image tag <old-image-name> <username/image-name>
+```
+to create a new name of image
+
+```
+docker push <image-name>
+```
+to push image on dockerhub
+
+
 
 
 
