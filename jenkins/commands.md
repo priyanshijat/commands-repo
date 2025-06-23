@@ -25,6 +25,16 @@ sudo apt-get install jenkins -y
 to install jenkins in ubuntu linux
 
 ```
+chmod 764 jenkins.sh
+```
+to give executable permission to script
+
+```
+./jenkins.sh
+```
+to run script
+
+```
 sudo apt install docker.io -y
 ```
 to install docker
